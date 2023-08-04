@@ -11,5 +11,4 @@ PAYMENT_ENDPOINT=nicepay/direct/v2/payment
 INQ_ENDPOINT=nicepay/direct/v2/inquiry
 ```
 
-# Doc And Log API
-[Docs](https://github.com/SK-sep/Nicepay-CC/wiki/Doc-API-Log)
+# [See Docs And Logs API](https://github.com/SK-sep/Nicepay-CC/wiki/Doc-API-Log)
