@@ -72,7 +72,7 @@ func Payment(iMid, merchantKey, payment_endpoint string) gin.HandlerFunc {
 			"merchantToken": merchantToken,
 			"tXid":          body.TXid,
 		}
-		url := "https://dev.nicepay.co.id/" + payment_endpoint
+		url := payment_endpoint
 		a, _ := Helper.Request().
 			SetHeader("Content-Type", "application/x-www-form-urlencoded").
 			SetFormData(data).

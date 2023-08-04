@@ -84,7 +84,7 @@ func Status(iMid, merchantKey, inq_endpoint string) gin.HandlerFunc {
 		merchantData := timestampTrx + iMid + body.ReferenceNo + body.Amt + merchantKey
 		merchantToken := Helper.GenerateMerchantToken(merchantData)
 
-		url := "https://dev.nicepay.co.id/" + inq_endpoint
+		url := inq_endpoint
 		inq_nicepay := &ResponseInq{}
 		a, _ := Helper.Request().
 			SetHeader("Content-Type", "application/json").

@@ -106,7 +106,7 @@ func Register(iMid, merchantKey, reg_endpoint string) gin.HandlerFunc {
 		merchantData := timestampTrx + iMid + refNo + body.Amt + merchantKey
 		merchantToken := Helper.GenerateMerchantToken(merchantData)
 
-		url := "https://dev.nicepay.co.id/" + reg_endpoint
+		url := reg_endpoint
 		register_nicepay := &Response{}
 		a, _ := Helper.Request().
 			SetHeader("Content-Type", "application/json").
