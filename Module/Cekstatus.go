@@ -1,7 +1,7 @@
 package module
 
 import (
-	"eska/Helper"
+	"Nicepay-CC/Helper"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"time"
@@ -72,9 +72,9 @@ type ResponseInq struct {
 func Status(iMid, merchantKey, inq_endpoint string) gin.HandlerFunc {
 	return func(c *gin.Context) {
 		var body struct {
-			TXid        string `json:"tXid"`
-			ReferenceNo string `json:"referenceNo"`
-			Amt         string `json:"amt"`
+			TXid        string `json:"trxID"`
+			ReferenceNo string `json:"noRef"`
+			Amt         string `json:"amount"`
 		}
 		if err := c.BindJSON(&body); err != nil {
 			c.JSON(http.StatusBadRequest, gin.H{"error": "invalid request body"})

@@ -1,7 +1,7 @@
 package module
 
 import (
-	"eska/Helper"
+	"Nicepay-CC/Helper"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"net/http"

@@ -1,7 +1,7 @@
 package module
 
 import (
-	"eska/Helper"
+	"Nicepay-CC/Helper"
 	"fmt"
 	"github.com/PuerkitoBio/goquery"
 	"github.com/gin-gonic/gin"
@@ -46,9 +46,9 @@ type ResponsePayment struct {
 func Payment(iMid, merchantKey, payment_endpoint string) gin.HandlerFunc {
 	return func(c *gin.Context) {
 		var body struct {
-			TXid         string `json:"tXid"`
-			ReferenceNo  string `json:"referenceNo"`
-			Amt          string `json:"amt"`
+			TXid         string `json:"trxID"`
+			ReferenceNo  string `json:"noRef"`
+			Amt          string `json:"amount"`
 			CardNo       string `json:"CardNo"`
 			CardExp      string `json:"CardExp"`
 			CardCvv      string `json:"CardCvv"`

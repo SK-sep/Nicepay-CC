@@ -26,7 +26,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"amt\":\"100\",\n\t\"goodsNm\":\"Masok\",\n\t\"billingNm\":\"SKTest\",\n\t\"billingPhone\":\"02110680000\",\n\t\"billingEmail\":\"email@merchant.com\",\n\t\"billingAddr\":\"Jalan Bukit Berbunga 22\",\n\t\"billingCity\":\"Jakarta\",\n\t\"billingState\":\"DKI Jakarta\",\n\t\"billingPostCd\":\"12345\",\n\t\"billingCountry\":\"Indonesia\",\n\t\"deliveryNm\":\"dobleh@merchant.com\",\n\t\"deliveryPhone\":\"12345678\",\n\t\"deliveryAddr\":\"Jalan Bukit Berbunga 22\",\n\t\"deliveryCity\":\"Jakarta\",\n\t\"deliveryState\":\"DKI Jakarta\",\n\t\"deliveryPostCd\":\"12345\",\n\t\"deliveryCountry\":\"Indonesia\",\n\t\"cartData\":\"{\\\"count\\\":1,\\\"item\\\":[{\\\"img_url\\\":\\\"https:\\/\\/images.ctfassets.net\\/od02wyo8cgm5\\/14Njym0dRLAHaVJywF8WFL\\/1910357dd0da0ae38b61bc8ad3db86e4\\/cloudflyer_2-fw19-grey_lime-m-g1.png\\\",\\\"goods_name\\\":\\\"Shoe\\\",\\\"goods_detail\\\":\\\"Shoe\\\",\\\"goods_amt\\\":100]}\",\n    \"description\":\"Pembelian jam rolex\"\n}",
+					"raw": "{\n\t\"amt\":\"100\",\n\t\"goodsNm\":\"eska\",\n\t\"billingNm\":\"eskasop\",\n\t\"billingPhone\":\"02110680000\",\n\t\"billingEmail\":\"email@merchant.com\",\n\t\"billingAddr\":\"Jalan Bukit Berbunga 22\",\n\t\"billingCity\":\"Jakarta\",\n\t\"billingState\":\"DKI Jakarta\",\n\t\"billingPostCd\":\"12345\",\n\t\"billingCountry\":\"Indonesia\",\n\t\"deliveryNm\":\"dobleh@merchant.com\",\n\t\"deliveryPhone\":\"12345678\",\n\t\"deliveryAddr\":\"Jalan Bukit Berbunga 22\",\n\t\"deliveryCity\":\"Jakarta\",\n\t\"deliveryState\":\"DKI Jakarta\",\n\t\"deliveryPostCd\":\"12345\",\n\t\"deliveryCountry\":\"Indonesia\",\n\t\"cartData\":\"{\\\"count\\\":1,\\\"item\\\":[{\\\"img_url\\\":\\\"https:\\/\\/images.ctfassets.net\\/od02wyo8cgm5\\/14Njym0dRLAHaVJywF8WFL\\/1910357dd0da0ae38b61bc8ad3db86e4\\/cloudflyer_2-fw19-grey_lime-m-g1.png\\\",\\\"goods_name\\\":\\\"Shoe\\\",\\\"goods_detail\\\":\\\"Shoe\\\",\\\"goods_amt\\\":100]}\",\n    \"description\":\"Test Pembelian Barang\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -56,7 +56,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"TXid\":\"{{trxID}}\",\n    \"ReferenceNo\":\"{{noRef}}\",\n    \"Amt\":\"{{amount}}\"\n}",
+					"raw": "{\n    \"trxID\":\"{{trxID}}\",\n    \"noRef\":\"{{noRef}}\",\n    \"amount\":\"{{amount}}\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -83,7 +83,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"TXid\":\"{{trxID}}\",\n    \"ReferenceNo\":\"{{noRef}}\",\n    \"Amt\":\"{{amount}}\",\n    \"CardNo\":\"4222222222226523\",\n    \"CardExp\":\"2406\",\n    \"CardCvv\":\"123\",\n    \"CardHolderNm\":\"Ini CC buat Test\"\n}",
+					"raw": "{\n    \"trxID\":\"{{trxID}}\",\n    \"noRef\":\"{{noRef}}\",\n    \"amount\":\"{{amount}}\",\n    \"CardNo\":\"4222222222226523\",\n    \"CardExp\":\"2406\",\n    \"CardCvv\":\"123\",\n    \"CardHolderNm\":\"Ini CC buat Test\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"

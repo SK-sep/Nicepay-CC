@@ -1,7 +1,7 @@
 package main
 
 import (
-	module "eska/Module"
+	module "Nicepay-CC/Module"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"

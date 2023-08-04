@@ -1,4 +1,4 @@
-module eska
+module Nicepay-CC
 
 go 1.19
 
